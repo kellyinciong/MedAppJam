@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ThirdViewController : UIViewController
-
+@property(nonatomic, getter=isScrollEnabled) BOOL ScrollEnabled;
 @end
